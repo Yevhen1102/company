@@ -1,7 +1,8 @@
 package com.company.vehicles;
 
 import com.company.details.Engine;
-import com.company.professions.Driver;
+import org.example.professions.Driver;
+
 
 import java.util.Scanner;
 
@@ -9,7 +10,7 @@ public class Car {
     Engine engine;
     Driver driver;
 
-    public void displayInfo1() {
+        public void displayInfo1() {
         driver.displayInfo1();
     }
 
